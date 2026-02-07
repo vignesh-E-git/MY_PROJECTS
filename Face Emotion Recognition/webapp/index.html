@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Emotion Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container intro-page">
+        <!-- Hero Section -->
+        <header class="hero fade-in">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Face Emotion</span>
+                    <br>Detection System
+                </h1>
+                <p class="hero-subtitle">
+                    Powered by AI to recognize human emotions in real-time
+                </p>
+            </div>
+        </header>
+
+        <!-- Features Section -->
+        <section class="features fade-in-delay">
+            <h2 class="section-title">Detectable Emotions</h2>
+            <div class="emotion-grid">
+                <div class="emotion-card glass-card">
+                    <div class="emotion-icon">😠</div>
+                    <h3>Angry</h3>
+                    <p>Detects signs of anger and frustration</p>
+                </div>
+                <div class="emotion-card glass-card">
+                    <div class="emotion-icon">🤢</div>
+                    <h3>Disgust</h3>
+                    <p>Identifies expressions of disgust</p>
+                </div>
+                <div class="emotion-card glass-card">
+                    <div class="emotion-icon">😨</div>
+                    <h3>Fear</h3>
+                    <p>Recognizes fearful expressions</p>
+                </div>
+                <div class="emotion-card glass-card">
+                    <div class="emotion-icon">😊</div>
+                    <h3>Happy</h3>
+                    <p>Detects joy and happiness</p>
+                </div>
+                <div class="emotion-card glass-card">
+                    <div class="emotion-icon">😢</div>
+                    <h3>Sad</h3>
+                    <p>Identifies sadness and sorrow</p>
+                </div>
+                <div class="emotion-card glass-card">
+                    <div class="emotion-icon">😲</div>
+                    <h3>Surprise</h3>
+                    <p>Recognizes surprised expressions</p>
+                </div>
+                <div class="emotion-card glass-card">
+                    <div class="emotion-icon">😐</div>
+                    <h3>Neutral</h3>
+                    <p>Detects neutral facial expressions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about fade-in-delay-2">
+            <div class="about-content glass-card">
+                <h2 class="section-title">About This Project</h2>
+                <p class="about-text">
+                    This advanced AI-powered system uses deep learning to analyze facial expressions 
+                    and classify them into one of seven distinct emotional categories. Built with a 
+                    Mini-Xception convolutional neural network trained on thousands of facial images, 
+                    our model achieves high accuracy in real-world emotion recognition tasks.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-badge">TensorFlow</span>
+                    <span class="tech-badge">OpenCV</span>
+                    <span class="tech-badge">Deep Learning</span>
+                    <span class="tech-badge">CNN</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta fade-in-delay-3">
+            <button class="cta-button" onclick="navigateToApp()">
+                <span>Get Started</span>
+                <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ using TensorFlow & Modern Web Technologies</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
